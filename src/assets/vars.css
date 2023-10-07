@@ -1,0 +1,18 @@
+:root {
+    --background-color: #0F141B;
+    --black: #000000;
+    --white: #FFFFFF;
+    --highlight: #2058BB;
+
+    --font-size: 16px;
+    --font-ratio: 1.414;
+    --font-family: 'Montserrat', sans-serif;
+    --font-family-corporate-a: 'Corporate A', sans-serif;
+    --font-weight: 400;
+
+    --h5-font-size: calc(var(--font-size) * var(--font-ratio));
+    --h4-font-size: calc(var(--h5-font-size) * var(--font-ratio));
+    --h3-font-size: calc(var(--h4-font-size) * var(--font-ratio));
+    --h2-font-size: calc(var(--h3-font-size) * var(--font-ratio));
+    --h1-font-size: calc(var(--h2-font-size) * var(--font-ratio));
+}
